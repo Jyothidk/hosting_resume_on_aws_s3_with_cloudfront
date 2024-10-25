@@ -37,8 +37,13 @@ Before setting up cloudfronfron
     In the origin settings, select your S3 bucket as the origin domain.
     Set Restrict Bucket Access to Yes for added security.
     CloudFront can automatically set up an Origin Access Identity (OAI) to secure the content.
-3. Create the CloudFront distribution and wait for deployment (it may take a few minutes).
-4. Update the s3 bucket policy by coping the policy from cloudfront (Only cloudfron have GetObject on s3 bucket )
+   
+Note: Add Default root object (html file or pdf). 
+
+![image](https://github.com/user-attachments/assets/118ca7cb-6285-49aa-a5e7-6b995d9f16c9)
+
+4. Create the CloudFront distribution and wait for deployment (it may take a few minutes).
+5. Update the s3 bucket policy by coping the policy from cloudfront (Only cloudfron have GetObject on s3 bucket )
 
 ![image](https://github.com/user-attachments/assets/ff891c4e-3f64-4065-85f0-151c4fda7bf9)
 
