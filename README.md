@@ -44,9 +44,11 @@ Before setting up cloudfronfron
 
 ![image](https://github.com/user-attachments/assets/70027b94-50bd-4e32-8368-0dbad39a5143)
 
+
 5. After deployment, you’ll receive a CloudFront URL (e.g., https://xxxx.cloudfront.net) to access your resume.
+
 
 ![image](https://github.com/user-attachments/assets/871791e3-71ea-4bbe-be27-c1859a46ceaa)
 
-![image](https://github.com/user-attachments/assets/820b98d0-4418-43bc-adeb-1a7a2ec0027b)
+
 
