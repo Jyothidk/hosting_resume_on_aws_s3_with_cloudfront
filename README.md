@@ -27,3 +27,9 @@
 
 # Hosting_resume_on_aws_s3_with_cloudfront
 ## Step 2: Set Up CloudFront Distribution
+Before setting up cloudfronfron 
+. Disable s3 static website hosting
+. Block all public access on S3 bucket
+. delete bucket policy
+
+
