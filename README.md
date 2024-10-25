@@ -1,4 +1,4 @@
-# hosting_resume_on_aws_s3
+## Hosting_resume_on_aws_s3 
 
 # Step 1: Upload Resume to S3 and Configure Static Website Hosting
 
@@ -24,3 +24,6 @@
 5. Now access the static website URL to see resume
 
 ![image](https://github.com/user-attachments/assets/85595567-65d9-44f2-a7f2-db94bc8ff1ef)
+
+## Hosting_resume_on_aws_s3_with_cloudfront
+# Step 2: Set Up CloudFront Distribution
