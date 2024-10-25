@@ -32,4 +32,21 @@ Before setting up cloudfronfron
 . Block all public access on S3 bucket
 . delete bucket policy
 
+1. Create a CloudFront Distribution: Go to the CloudFront console and select Create Distribution.
+2. Specify S3 Bucket as Origin:
+    In the origin settings, select your S3 bucket as the origin domain.
+    Set Restrict Bucket Access to Yes for added security.
+    CloudFront can automatically set up an Origin Access Identity (OAI) to secure the content.
+3. Create the CloudFront distribution and wait for deployment (it may take a few minutes).
+4. Update the s3 bucket policy by coping the policy from cloudfront (Only cloudfron have GetObject on s3 bucket )
+
+![image](https://github.com/user-attachments/assets/ff891c4e-3f64-4065-85f0-151c4fda7bf9)
+
+![image](https://github.com/user-attachments/assets/70027b94-50bd-4e32-8368-0dbad39a5143)
+
+5. After deployment, you’ll receive a CloudFront URL (e.g., https://xxxx.cloudfront.net) to access your resume.
+
+![image](https://github.com/user-attachments/assets/871791e3-71ea-4bbe-be27-c1859a46ceaa)
+
+![image](https://github.com/user-attachments/assets/820b98d0-4418-43bc-adeb-1a7a2ec0027b)
 
